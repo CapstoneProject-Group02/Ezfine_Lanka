@@ -1,0 +1,74 @@
+.sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url("/public/otp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sec1 {
+  color: green;
+}
+
+.sec2 {
+  text-align: center;
+  background-color: rgba(224, 243, 119, 0.89);
+  border-radius: 15px;
+  height: 60vh;
+  width: 25rem;
+}
+
+.sec3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sec5,
+.sec9 {
+  margin-bottom: 10px;
+}
+
+.sec6 {
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: -70px;
+}
+
+.sec7,
+.button{
+  margin-top: 80px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 15rem;
+}
+
+.sec8,
+.sec12 {
+  margin-right: 10px;
+}
+.sec13 {
+  position: relative;
+  left: 20px;
+}
+
+@media (max-width: 768px) {
+  .sec3 {
+    font-size: 1.5rem;
+  }
+
+  .sec6 {
+    width: 150px;
+  }
+}
