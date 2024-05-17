@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const filesToRun = [
   "officers.js",
   "users.js",
-  //   "smssend.js",
+  "smssend.js",
   //   "finessend.js",
   //   "getlicense.js",
   //   "payment.js",
