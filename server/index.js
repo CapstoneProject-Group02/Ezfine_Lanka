@@ -13,11 +13,11 @@ app.use(bodyParser.json());
 const filesToRun = [
   "officers.js",
   "users.js",
-  "smssend.js",
-  //   "finessend.js",
-  //   "getlicense.js",
-  //   "payment.js",
-  //   "latepayment.js",
+  "sendsms.js",
+  "finessend.js",
+  "getlicense.js",
+  "payment.js",
+  "latepayment.js",
 ];
 
 filesToRun.forEach((file) => {

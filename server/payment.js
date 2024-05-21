@@ -15,7 +15,7 @@ const con = mysql.createConnection({
   user: "root",
   host: "localhost",
   password: "",
-  database: "register",
+  database: "ezfine",
 });
 
 // app.get("/getFineAmount", (req, res) => {
