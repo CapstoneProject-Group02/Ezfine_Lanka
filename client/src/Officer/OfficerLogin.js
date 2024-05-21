@@ -7,7 +7,7 @@ import englishContent from "../Json/Officer Login/OLE.json";
 import sinhalaContent from "../Json/Officer Login/OLS.json";
 import tamilContent from "../Json/Officer Login/OLT.json";
 import { useLanguage } from "../TraslateBtn/LanguageContext";
-import LoginWithGoogle from "../FireBase/GoogleLogin";
+import LoginWithGoogle from "../FireBase/GoogleLoginDriver";
 import { toast, Toaster } from "react-hot-toast";
 
 function OfficerLogin() {

@@ -7,7 +7,7 @@ import { useLanguage } from "../TraslateBtn/LanguageContext";
 import englishContent from "../Json/Driver Login/DLE.json";
 import sinhalaContent from "../Json/Driver Login/DLS.json";
 import tamilContent from "../Json/Driver Login/DLT.json";
-import LoginWithGoogle from "../FireBase/GoogleLogin";
+import LoginWithGoogle from "../FireBase/GoogleLoginDriver";
 import OptionStep from "../ChatBot/OptionStep";
 import { toast, Toaster } from "react-hot-toast";
 
