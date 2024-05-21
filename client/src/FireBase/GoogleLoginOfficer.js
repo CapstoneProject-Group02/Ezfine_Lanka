@@ -6,8 +6,8 @@ import sinhalaContent from "../Json/Driver Login/DLS.json";
 import tamilContent from "../Json/Driver Login/DLT.json";
 import { useLanguage } from "../TraslateBtn/LanguageContext";
 
-function LoginWithGoogle() {
-const { selectedLanguage } = useLanguage();
+function GoogleLoginOfficer() {
+  const { selectedLanguage } = useLanguage();
 
   let content;
   switch (selectedLanguage) {
@@ -25,12 +25,12 @@ const { selectedLanguage } = useLanguage();
   }
   const [value, setValue] = useState("");
 
-  const handleClick = () => {
+  const handleClick1 = () => {
     signInWithPopup(auth, provider).then((data) => {
       setValue(data.user.email);
       localStorage.setItem("email", data.user.email);
       // Redirect to Home component
-      window.location.href = "/driverinterface";
+      window.location.href = "/officermaininterface";
     });
   };
 
@@ -40,12 +40,14 @@ const { selectedLanguage } = useLanguage();
 
   return (
     <div>
-      {value ? (
-        <p>Welcome, {value}</p>
-      ) : (
-        <button onClick={handleClick} className="button1">{content.Google}</button>
-      )}
+      {/* {value ? ( */}
+      {/* // <p>Welcome, {value}</p> */}
+      {/* ) : ( */}
+      <button onClick={handleClick1} className="button1">
+        {content.Google}
+      </button>
+      {/* )} */}
     </div>
   );
 }
-export default LoginWithGoogle;
+export default GoogleLoginOfficer;

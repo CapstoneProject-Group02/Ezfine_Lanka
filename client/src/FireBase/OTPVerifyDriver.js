@@ -7,9 +7,9 @@ import "react-phone-input-2/lib/style.css";
 import { auth } from "./firebase.config";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { toast, Toaster } from "react-hot-toast";
-import "./OTPVerify.css";
+import "./OTPVerifyDriver.css";
 
-const OTPVerify = () => {
+const OTPVerifyDriver = () => {
   const [otp, setOtp] = useState("");
   const [ph, setPh] = useState("");
   const [loading, setLoading] = useState(false);
@@ -126,4 +126,6 @@ const OTPVerify = () => {
   );
 };
 
-export default OTPVerify;
+export default OTPVerifyDriver;
+
+
