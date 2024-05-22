@@ -196,11 +196,11 @@ function DriverSignUp() {
               <button className="button">{content.LoginButton}</button>
             </Link> */}
             <Link to="/driverlogin">
-              <button className="button">{content.LoginButton}</button>
+              <button className="buttonSignD">{content.LoginButton}</button>
             </Link>
             <br></br>
             <input
-              className="button"
+              className="buttonSignD"
               type="submit"
               onClick={register}
               value={content.RegisterButton}

@@ -28,7 +28,7 @@
   background-color: #f9f9f9a3;
 }
 
-label {
+label1 {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -47,16 +47,6 @@ input[type="text_1"] {
   margin-top: 20px;
 }
 
-button {
-  margin-left: 0px;
-  padding: 5px 1px;
-  background-color: #e4a80e;
-  color: rgb(0, 0, 0);
-  border: none;
-  border-radius: 3px;
-  font-weight: bold;
-  cursor: pointer;
-}
 
 button:hover {
   background-color: #f1f0da;
@@ -94,6 +84,14 @@ td {
 .btn {
   margin-left: 250px;
   position: relative;
+  margin-left: 0px;
+  padding: 5px 1px;
+  background-color: #e4a80e;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
   /* left: 600px;
     top: -80px; */
 }
@@ -133,6 +131,14 @@ td {
   }
   .btn2 {
     margin-left: 59px;
+    margin-left: 0px;
+  padding: 5px 1px;
+  background-color: #e4a80e;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
   }
   .bg_history h1 {
     font-size: 25px;

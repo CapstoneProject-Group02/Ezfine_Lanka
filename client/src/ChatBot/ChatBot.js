@@ -8,7 +8,7 @@ function ChatBot() {
         script.defer = true;
     
         // Set the chatbotId and domain attributes
-        script.setAttribute("chatbotId", "5t30pCIkSc5rpukyzOipI");
+        script.setAttribute("chatbotId", "Md6dUPc75wnBkWlgWsVCO");
         script.setAttribute("domain", "www.chatbase.co");
     
         // Append the script to the document body

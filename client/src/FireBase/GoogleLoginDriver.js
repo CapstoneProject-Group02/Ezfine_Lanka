@@ -43,7 +43,7 @@ function GoogleLoginDriver() {
       {/* {value ? ( */}
       {/* // <p>Welcome, {value}</p> */}
       {/* ) : ( */}
-      <button onClick={handleClick} className="button1">
+      <button onClick={handleClick} className="buttonofficerlog">
         {content.Google}
       </button>
       {/* )} */}

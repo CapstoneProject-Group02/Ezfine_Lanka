@@ -18,7 +18,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.loginForm {
+.loginFormofficersign {
   float: center;
   max-width: 600px;
   margin-bottom: 4px;
@@ -34,26 +34,26 @@
   height: 480px;
 }
 
-.loginForm form {
+.loginFormofficersign form {
   text-align: center;
 }
 
-.loginForm h4 {
+.loginFormofficersign h4 {
   margin-bottom: 20px;
 }
 
-.loginForm label {
+.loginFormofficersign label {
   display: block;
   margin-bottom: 5px;
 }
 
-.loginForm .textInput {
+.loginFormofficersign .textInputofficersign {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
 }
 
-.loginForm .button {
+.loginFormofficersign .buttonofficersign {
   width: 220px;
   padding: 10px;
   border: none;
@@ -65,10 +65,10 @@
   margin-top: 1rem;
   position: relative;
   left: 9px;
-  top: 60px;
+  /* top: 60px; */
 }
 
-.loginForm .registerStatus {
+.loginFormofficersign .registerStatus {
   font-size: 15px;
   text-align: center;
   margin-top: 20px;
@@ -78,11 +78,11 @@
   .bgp h1 {
     font-size: 20px;
   }
-  .loginForm label {
+  .loginFormofficersign label {
     font-size: 10px;
   }
 
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -98,13 +98,13 @@
     height: 430px;
   }
 
-  .loginForm .textInput {
+  .loginFormofficersign .textInputofficersign {
     padding: 5px;
     margin-bottom: 10px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 76px;
     padding: 10px;
     height: 20px;
@@ -118,7 +118,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
 }
@@ -126,11 +126,11 @@
   .bgp h1 {
     font-size: 20px;
   }
-  .loginForm label {
+  .loginFormofficersign label {
     font-size: 10px;
   }
 
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -146,13 +146,13 @@
     height: 430px;
   }
 
-  .loginForm .textInput {
+  .loginFormofficersign .textInputofficersign {
     padding: 5px;
     margin-bottom: 10px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 140px;
     padding: 10px;
     height: 20px;
@@ -166,7 +166,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
 }
@@ -176,7 +176,7 @@
     font-size: 25px;
   }
 
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -192,8 +192,8 @@
     height: 390px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 76px;
     padding: 10px;
     height: 30px;
@@ -207,7 +207,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
 }
@@ -217,7 +217,7 @@
     font-size: 30px;
   }
 
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -228,11 +228,11 @@
     padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
     width: 65%;
-    height: 70vh;
+    height: 80vh;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+ 
+  .loginFormofficersign .buttonofficersign {
     width: 76px;
     padding: 10px;
     height: 30px;
@@ -246,7 +246,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
 }
@@ -262,7 +262,7 @@
     height: 102vh;
     background-size: cover;
   }
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -273,11 +273,11 @@
     padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
     width: 70%;
-    height: 370px;
+    height: 400px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 85px;
     padding: 10px;
     height: 30px;
@@ -291,7 +291,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
 }
@@ -306,7 +306,7 @@
     height: 102vh;
     background-size: cover;
   }
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -317,16 +317,16 @@
     padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
     width: 70%;
-    height: 370px;
+    height: 400px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 100%;
     margin-top: 1rem;
   }
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 100px;
     padding: 10px;
     height: 30px;
@@ -340,10 +340,10 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
-  .loginForm .textInput {
+  .loginFormofficersign .textInputofficersign {
     width: 80%;
     padding: 8px;
     margin-bottom: 15px;
@@ -354,7 +354,7 @@
     font-size: 30px;
   }
 
-  .loginForm {
+  .loginFormofficersign {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -368,8 +368,8 @@
     height: 370px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficersign .buttonofficersign {
     width: 100px;
     padding: 10px;
     height: 30px;
@@ -383,12 +383,13 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    /* top: 50px; */
     bottom: 5px;
   }
-  .loginForm .textInput {
+  .loginFormofficersign .textInputofficersign {
     width: 80%;
     padding: 8px;
     margin-bottom: 15px;
   }
+  
 }

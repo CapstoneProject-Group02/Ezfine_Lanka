@@ -71,7 +71,7 @@ function DriverLogin() {
           Login
           <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormDriver">
           <form>
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
@@ -96,7 +96,7 @@ function DriverLogin() {
               required
             />
             <input
-              className="button"
+              className="button1"
               type="submit"
               onClick={login}
               value={content.LoginButton}
@@ -113,9 +113,9 @@ function DriverLogin() {
               {/* {loginStatus} */}
             </h1>
 
-            <h3 style={{ position: "relative", top: "50px" }}>
+            <div className="newMember">
               {content.NewMemberMessage}
-            </h3>
+            </div>
 
             <Link to="/driversignup">
               <button className="button1">{content.CreateAccountButton}</button>
@@ -124,7 +124,7 @@ function DriverLogin() {
               <button className="button1">{content.Back}</button>
             </Link>
           </form>
-          <OptionStep></OptionStep>
+          
         </div>
       </div>
     </div>

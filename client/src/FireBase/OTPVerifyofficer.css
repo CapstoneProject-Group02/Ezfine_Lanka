@@ -46,7 +46,7 @@
 }
 
 .sec7,
-.button{
+.buttonotp{
   margin-top: 80px;
   padding: 10px 20px;
   background-color: #007bff;
@@ -91,7 +91,7 @@
     cursor: pointer;
     width: 12rem;
   }
-  .button{
+  .buttonotp{
     margin-top: 40px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -149,7 +149,7 @@
     cursor: pointer;
     width: 13rem;
   }
-  .button{
+  .buttonotp{
     margin-top: 50px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -206,7 +206,7 @@
     font-size: 2rem;
   }
 
-  .button{
+  .buttonotp{
     margin-top: 70px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -260,7 +260,7 @@
     font-size: 3rem;
   }
 
-  .button{
+  .buttonotp{
     margin-top: 80px;
     padding: 9px 20px;
     border-radius: 1px;
@@ -308,7 +308,7 @@
     left: 58px;
   }
   
-  .button{
+  .buttonotp{
     margin-top: 80px;
     padding: 9px 20px;
     border-radius: 1px;

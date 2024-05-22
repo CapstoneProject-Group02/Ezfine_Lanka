@@ -130,11 +130,11 @@ function OfficerSignUp() {
         <h1>
           Register <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormofficersign">
           <form>
             <label htmlFor="email">{content.EmailLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="email"
               name="email"
               onChange={(e) => {
@@ -145,7 +145,7 @@ function OfficerSignUp() {
             />
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="text"
               name="username"
               onChange={(e) => {
@@ -157,7 +157,7 @@ function OfficerSignUp() {
             />
             <label htmlFor="password">{content.PasswordLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="password"
               name="password"
               onChange={(e) => {
@@ -168,7 +168,7 @@ function OfficerSignUp() {
             />
             <label htmlFor="confirmPassword">{content.Conform}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="password"
               name="confirmPassword"
               onChange={(e) => {
@@ -179,7 +179,7 @@ function OfficerSignUp() {
               // value=
             />
             <input
-              className="button"
+              className="buttonofficersign"
               type="submit"
               onClick={register1}
               value={content.CreateAccountButton}
@@ -196,11 +196,11 @@ function OfficerSignUp() {
               {/* {registerStatus} */}
             </h1>
 
-            <h3 style={{ position: "relative", top: "40px" }}>
+            <div className="existing">
               {content.ExistingMemberMessage}
-            </h3>
+            </div>
             <Link to="/officerlogin">
-              <button className="button">{content.LoginButton}</button>
+              <button className="buttonofficersign">{content.LoginButton}</button>
             </Link>
           </form>
         </div>

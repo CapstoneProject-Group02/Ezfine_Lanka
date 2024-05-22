@@ -22,9 +22,10 @@
   color: white;
   text-align: center;
   font-size: 35px;
+  margin-top: 20px;
 }
 
-.loginForm {
+.loginFormDriver {
   float: center;
   max-width: 600px;
   margin-bottom: 4px;
@@ -40,41 +41,41 @@
   height: 480px;
 }
 
-.loginForm form {
+.loginFormDriver form {
   text-align: center;
+  margin-top: 25px;
 }
-.loginForm .textInput {
+.loginFormDriver .textInput {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
 }
 
-.loginForm h4 {
+.loginFormDriver h4 {
   margin-bottom: 20px;
   color: black;
 }
 
-.loginForm label {
+.loginFormDriver label {
   display: block;
   margin-bottom: 5px;
 }
 
-.loginForm .button,
-.loginForm .button1 {
+.loginFormDriver .button1 {
   width: 220px;
   padding: 10px;
   border: none;
   border-radius: 3px;
   background-color: #e4a80e;
-  color: white;
-  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
   cursor: pointer;
   margin-top: 1rem;
   position: relative;
   left: 9px;
-  top: 50px;
+  top: 0px;
 }
-.loginForm .errorMessage {
+.loginFormDriver .errorMessage {
   color: red;
   font-size: 15px;
   text-align: center;
@@ -85,11 +86,11 @@
   .bgp h1 {
     font-size: 20px;
   }
-  .loginForm label {
+  .loginFormDriver label {
     font-size: 10px;
   }
 
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -105,13 +106,13 @@
     height: 430px;
   }
 
-  .loginForm .textInput {
+  .loginFormDriver .textInput {
     padding: 5px;
     margin-bottom: 10px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 76px;
     padding: 10px;
     height: 20px;
@@ -125,7 +126,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
 }
@@ -133,11 +134,11 @@
   .bgp h1 {
     font-size: 20px;
   }
-  .loginForm label {
+  .loginFormDriver label {
     font-size: 10px;
   }
 
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -153,13 +154,13 @@
     height: 430px;
   }
 
-  .loginForm .textInput {
+  .loginFormDriver .textInput {
     padding: 5px;
     margin-bottom: 10px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 140px;
     padding: 10px;
     height: 20px;
@@ -173,7 +174,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
 }
@@ -183,7 +184,7 @@
     font-size: 25px;
   }
 
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -199,8 +200,8 @@
     height: 390px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 76px;
     padding: 10px;
     height: 30px;
@@ -214,7 +215,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
 }
@@ -224,7 +225,7 @@
     font-size: 30px;
   }
 
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -238,8 +239,8 @@
     height: 70vh;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 76px;
     padding: 10px;
     height: 30px;
@@ -253,7 +254,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
 }
@@ -269,7 +270,7 @@
     height: 102vh;
     background-size: cover;
   }
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -283,8 +284,8 @@
     height: 370px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 85px;
     padding: 10px;
     height: 30px;
@@ -298,7 +299,7 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
 }
@@ -313,7 +314,7 @@
     height: 102vh;
     background-size: cover;
   }
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -327,13 +328,13 @@
     height: 370px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 100%;
     margin-top: 1rem;
   }
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button,
+  .loginFormDriver .button1 {
     width: 100px;
     padding: 10px;
     height: 30px;
@@ -347,21 +348,21 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
-  .loginForm .textInput {
+  .loginFormDriver .textInput {
     width: 80%;
     padding: 8px;
     margin-bottom: 15px;
   }
 }
-@media only screen and (min-width: 667px) and (max-width: 1075px) {
+@media only screen and (min-width: 667px) and (max-width: 1200px) {
   .bgp h1 {
     font-size: 30px;
   }
 
-  .loginForm {
+  .loginFormDriver {
     float: center;
     max-width: 600px;
     margin-bottom: 50px;
@@ -375,8 +376,7 @@
     height: 370px;
   }
 
-  .loginForm .button,
-  .loginForm .button1 {
+  .loginFormDriver .button1 {
     width: 100px;
     padding: 10px;
     height: 30px;
@@ -390,12 +390,16 @@
     margin-left: 2px;
     position: relative;
     left: 9px;
-    top: 50px;
+    top: 0px;
     bottom: 5px;
   }
-  .loginForm .textInput {
+  .loginFormDriver .textInput {
     width: 80%;
     padding: 8px;
     margin-bottom: 15px;
+  }
+  .newMember{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
   }
 }

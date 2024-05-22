@@ -15,7 +15,7 @@
       height: 5vh;
       align-items: center;
     }
-    .cont .button {
+    .cont .button1 {
      width: 28%;
      height: 3vh;
      padding: 1px 2px;
@@ -30,7 +30,7 @@
      
     }
     
-    .cont .button:hover {
+    .cont .button1:hover {
       background-color: #0056b3;
     }
   
@@ -52,7 +52,7 @@
       height: 5vh;
       align-items: center;
     }
-    .cont .button {
+    .cont .button1 {
      width: 28%;
      height: 3vh;
      padding: 1px 2px;
@@ -67,7 +67,7 @@
      
     }
     
-    .cont .button:hover {
+    .cont .button1:hover {
       background-color: #0056b3;
     }
   
@@ -89,7 +89,7 @@
       height: 5vh;
       align-items: center;
     }
-    .cont .button {
+    .cont .button1 {
      width: 28%;
      height: 3vh;
      padding: 1px 2px;
@@ -104,7 +104,7 @@
      
     }
     
-    .cont .button:hover {
+    .cont .button1:hover {
       background-color: #0056b3;
     }
   
@@ -126,7 +126,7 @@
       height: 5vh;
       align-items: center;
     }
-    .cont .button {
+    .cont .button1 {
      width: 26%;
      height: 3vh;
      padding: 1px 2px;
@@ -141,7 +141,7 @@
      
     }
     
-    .cont .button:hover {
+    .cont .button1:hover {
       background-color: #0056b3;
     }
   
@@ -163,9 +163,9 @@
     height: 5vh;
     align-items: center;
   }
-  .cont .button {
+  .cont .button1 {
    width: 26%;
-   height: 3vh;
+   height: 4vh;
    padding: 1px 2px;
     font-size: 0.9em;
     cursor: pointer;
@@ -178,7 +178,7 @@
    
   }
   
-  .cont .button:hover {
+  .cont .button1:hover {
     background-color: #0056b3;
   }
   
@@ -201,9 +201,9 @@
       height: 5vh;
       align-items: center;
     }
-    .cont .button {
+    .cont .button1 {
      width: 26%;
-     height: 3vh;
+     height: 4vh;
      padding: 1px 2px;
       font-size: 0.9em;
       cursor: pointer;
@@ -216,7 +216,7 @@
      
     }
     
-    .cont .button:hover {
+    .cont .button1:hover {
       background-color: #0056b3;
     }
     

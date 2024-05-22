@@ -24,7 +24,7 @@
     font-size: 35px;
   }
   
-  .loginForm {
+  .loginFormofficer {
     float: center;
     max-width: 600px;
     margin-bottom: 4px;
@@ -40,33 +40,32 @@
     height: 480px;
   }
   
-  .loginForm form {
+  .loginFormofficer form {
     text-align: center;
   }
-  .loginForm .textInput {
+  .loginFormofficer .textInputofficerlog {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
   }
   
-  .loginForm h4 {
+  .loginFormofficer h4 {
     margin-bottom: 20px;
     color: black;
   }
   
-  .loginForm label {
+  .loginFormofficer label {
     display: block;
     margin-bottom: 5px;
   }
-  
-  .loginForm .button,
-  .loginForm .button1 {
+
+  .loginFormofficer .buttonofficerlog {
     width: 220px;
     padding: 10px;
     border: none;
     border-radius: 3px;
     background-color: #e4a80e;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     cursor: pointer;
     margin-top: 1rem;
@@ -74,7 +73,7 @@
     left: 9px;
     top: 50px;
   }
-  .loginForm .errorMessage {
+  .loginFormofficer .errorMessage {
     color: red;
     font-size: 15px;
     text-align: center;
@@ -85,11 +84,11 @@
     .bgp h1 {
       font-size: 20px;
     }
-    .loginForm label {
+    .loginFormofficer label {
       font-size: 10px;
     }
   
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 4px;
@@ -105,13 +104,13 @@
       height: 430px;
     }
   
-    .loginForm .textInput {
+    .loginFormofficer .textInputofficerlog {
       padding: 5px;
       margin-bottom: 10px;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+
+    .loginFormofficer .buttonofficerlog {
       width: 76px;
       padding: 10px;
       height: 20px;
@@ -133,11 +132,11 @@
     .bgp h1 {
       font-size: 20px;
     }
-    .loginForm label {
+    .loginFormofficer label {
       font-size: 10px;
     }
   
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 4px;
@@ -153,13 +152,13 @@
       height: 430px;
     }
   
-    .loginForm .textInput {
+    .loginFormofficer .textInputofficerlog {
       padding: 5px;
       margin-bottom: 10px;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+  
+    .loginFormofficer .buttonofficerlog {
       width: 140px;
       padding: 10px;
       height: 20px;
@@ -183,7 +182,7 @@
       font-size: 25px;
     }
   
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 4px;
@@ -199,8 +198,8 @@
       height: 390px;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+
+    .loginFormofficer .buttonofficerlog {
       width: 76px;
       padding: 10px;
       height: 30px;
@@ -224,7 +223,7 @@
       font-size: 30px;
     }
   
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 50px;
@@ -238,8 +237,8 @@
       height: 70vh;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+
+    .loginFormofficer .buttonofficerlog {
       width: 76px;
       padding: 10px;
       height: 30px;
@@ -269,7 +268,7 @@
       height: 102vh;
       background-size: cover;
     }
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 50px;
@@ -282,9 +281,8 @@
       width: 70%;
       height: 370px;
     }
-  
-    .loginForm .button,
-    .loginForm .button1 {
+
+    .loginFormofficer .buttonofficerlog {
       width: 85px;
       padding: 10px;
       height: 30px;
@@ -313,7 +311,7 @@
       height: 102vh;
       background-size: cover;
     }
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 50px;
@@ -327,13 +325,13 @@
       height: 370px;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+ 
+    .loginFormofficer .buttonofficerlog {
       width: 100%;
       margin-top: 1rem;
     }
-    .loginForm .button,
-    .loginForm .button1 {
+
+    .loginForm .buttonofficerlog {
       width: 100px;
       padding: 10px;
       height: 30px;
@@ -350,7 +348,7 @@
       top: 50px;
       bottom: 5px;
     }
-    .loginForm .textInput {
+    .loginFormofficer .textInputofficerlog {
       width: 80%;
       padding: 8px;
       margin-bottom: 15px;
@@ -361,7 +359,7 @@
       font-size: 30px;
     }
   
-    .loginForm {
+    .loginFormofficer {
       float: center;
       max-width: 600px;
       margin-bottom: 50px;
@@ -375,8 +373,7 @@
       height: 370px;
     }
   
-    .loginForm .button,
-    .loginForm .button1 {
+    .loginFormofficer .buttonofficerlog {
       width: 100px;
       padding: 10px;
       height: 30px;
@@ -393,7 +390,7 @@
       top: 50px;
       bottom: 5px;
     }
-    .loginForm .textInput {
+    .loginFormofficer .textInputofficerlog {
       width: 80%;
       padding: 8px;
       margin-bottom: 15px;

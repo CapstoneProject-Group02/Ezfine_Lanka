@@ -65,11 +65,11 @@ function OfficerLogin() {
           Login
           <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormofficer">
           <form>
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficerlog"
               type="text"
               name="username"
               onChange={(e) => {
@@ -80,7 +80,7 @@ function OfficerLogin() {
             />
             <label htmlFor="password">{content.PasswordLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficerlog"
               type="password"
               name="password"
               onChange={(e) => {
@@ -90,7 +90,7 @@ function OfficerLogin() {
               required
             />
             <input
-              className="button"
+              className="buttonofficerlog"
               type="submit"
               onClick={login1}
               value={content.LoginButton}
@@ -111,10 +111,10 @@ function OfficerLogin() {
               {content.NewMemberMessage}
             </h3>
             <Link to="/officersignup">
-              <button className="button1">{content.CreateAccountButton}</button>
+              <button className="buttonofficerlog">{content.CreateAccountButton}</button>
             </Link>
             <Link to="/">
-              <button className="button1">{content.Back}</button>
+              <button className="buttonofficerlog">{content.Back}</button>
             </Link>
           </form>
         </div>
