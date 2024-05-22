@@ -1,0 +1,301 @@
+ .bgpdsi {
+  margin:0;
+  padding:0;
+  background-image: url("bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height:100vh;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+   
+}
+.bgpdsi h1{
+  text-align: center;
+  color: white;
+}
+.overlaydsi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.loginFormdsi {
+  float: center;
+  max-width: 600px;
+  margin-bottom: 4px;
+  margin:auto;
+  opacity:0.75;
+  border-radius: 10%;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 08px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 400px;
+  height: 480px;
+}
+
+.loginnFormdsi form {
+  text-align: center;
+}
+
+.loginFormdsi h4 {
+  margin-bottom: 20px;
+}
+
+.loginFormdsi label {
+  display: block;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+.loginFormdsi .textInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 2px;
+}
+
+ .button2 {
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #E4A80E;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+  left: 92px;
+  top: 30px;
+}
+.loginFormdsi p{
+  text-align: center;
+}
+
+.loginFormdsi .registerStatus {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+} 
+
+  @media only screen and (min-width: 200px) and (max-width:500px) {
+    .loginFormdsi {
+      width: 70vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+
+  @media only screen and (min-width: 501px) and (max-width:600px) {
+    .loginFormdsi {
+      width: 60vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+
+  @media only screen and (min-width: 601px) and (max-width:700px) {
+    .loginFormdsi {
+      width: 50vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+
+  @media only screen and (min-width: 701px) and (max-width:800px) {
+    .loginFormdsi {
+      width: 50vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+
+  @media only screen and (min-width: 801px) and (max-width:900px) {
+    .loginFormdsi {
+      width: 40vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+  @media only screen and (min-width: 901px) and (max-width:1000px) {
+    .loginFormdsi {
+      width: 40vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+  @media only screen and (min-width: 1000px) and (max-width:1280px) {
+    .loginFormdsi {
+      width: 40vw;
+      max-width: 90vw;
+      padding: 5px;
+      border-radius: 10px;
+      height:443px ;
+    }
+    .bgpdsi{
+      font-size: 12px;
+    }
+    .loginFormdsi label {
+      margin-top: 2px;
+      margin-right: 11px;
+    }
+    .loginFormdsi .textInput {
+      width: 95%;
+      padding: 4px;
+      margin-bottom: 15px;
+      margin-top: -5px;
+    }
+    .button2 {
+      padding: 5px;
+      margin-top: 15px;
+      left: 27%;
+      width: 50%;
+    }
+  
+  }
+
+
+
+
+
+
+
+
+

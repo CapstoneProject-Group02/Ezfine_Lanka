@@ -1,0 +1,291 @@
+.bgposi {
+  margin:0;
+  padding:0;
+  background-image: url("bgimage.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height:100vh;
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+   
+}
+.bgposi h1{
+  text-align: center;
+  color: white;
+}
+.overlayosi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+.loginFormosi {
+  float: center;
+  max-width: 600px;
+  margin-bottom: 4px;
+  margin:auto;
+  opacity:0.75;
+  border-radius: 10%;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 08px;
+  padding-bottom: 30px;
+  background-color: white;
+  width: 400px;
+  height: 480px;
+}
+.loginnFormosi form {
+  text-align: center;
+}
+
+.loginFormosi h4 {
+  margin-bottom: 20px;
+}
+
+.loginFormosi label {
+  display: block;
+  margin-bottom: 2px;
+  margin-top: 15px;
+}
+
+.loginFormosi .textInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 2px;
+}
+
+ .button4 {
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #E4A80E;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  position: relative;
+  left: 92px;
+  top: 30px;
+}
+.loginFormosi p{
+  text-align: center;
+}
+
+.loginFormosi .registerStatus {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+} 
+
+@media only screen and (min-width: 200px) and (max-width:500px) {
+  .loginFormosi {
+    width: 70vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width:600px) {
+  .loginFormosi {
+    width: 60vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width:700px) {
+  .loginFormosi {
+    width: 50vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width:800px) {
+  .loginFormosi {
+    width: 50vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width:900px) {
+  .loginFormosi {
+    width: 40vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+@media only screen and (min-width: 901px) and (max-width:1000px) {
+  .loginFormosi {
+    width: 40vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1280px) {
+  .loginFormosi {
+    width: 40vw;
+    max-width: 90vw;
+    padding: 5px;
+    border-radius: 10px;
+    height:443px ;
+  }
+  .bgposi{
+    font-size: 12px;
+  }
+  .loginFormosi label {
+    margin-top: 2px;
+    margin-right: 11px;
+  }
+  .loginFormosi .textInput {
+    width: 95%;
+    padding: 4px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+  }
+  .button4 {
+    padding: 5px;
+    margin-top: 15px;
+    left: 27%;
+    width: 50%;
+  }
+
+}
+
