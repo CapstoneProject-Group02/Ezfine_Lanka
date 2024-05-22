@@ -46,14 +46,14 @@ function OfficerMainInterface() {
             <div className="inbodyo">
               <div className="offenceso">
                 {/* <div> */}
-                <Link to="/inter" className="linko">
+                <Link to="/officerfineselectinterface" className="linko">
                   <img src="/offencedetails.jpg" alt="" className="imageo" />
                   <p className="topico">{content.select_offences}</p>
                 </Link>
                 {/* </div> */}
               </div>
               <div className="historyo">
-                <Link to="/historywithpay" className="linko">
+                <Link to="/history" className="linko">
                   <img src="/viewhistory.jpg" alt="" className="imageo" />
                   <p className="topico">{content.view_history}</p>
                 </Link>

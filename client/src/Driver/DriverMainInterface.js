@@ -26,8 +26,8 @@ function DriverMainInterface() {
   }
   return (
     <div className="bgd">
-      <TranslateButton></TranslateButton>
       <div className="overlayd">
+        <TranslateButton></TranslateButton>
         <h1>
           Drive Responsibly
           <span style={{ color: "#E4A80E" }}>, Arrive Safely</span>
@@ -46,7 +46,7 @@ function DriverMainInterface() {
           <div className="historyd">
             <p className="topicd">{content.ViewHistory}</p>
 
-            <Link to="/historywithpay" className="link">
+            <Link to="/history" className="link">
               <img src="/viewhistory.jpg" alt="" className="imaged" />
             </Link>
           </div>

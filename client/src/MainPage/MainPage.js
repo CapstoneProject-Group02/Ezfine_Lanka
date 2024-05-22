@@ -5,8 +5,8 @@ import { useLanguage } from "../TraslateBtn/LanguageContext";
 import englishContent from "../Json/Main Page/ME.json";
 import sinhalaContent from "../Json/Main Page/MS.json";
 import tamilContent from "../Json/Main Page/MT.json";
-import OptionStep from "../ChatBot/OptionStep";
 import TranslateButton from "../TraslateBtn/TranslateButton";
+import ChatBot from "../ChatBot/ChatBot";
 
 const MainPage = () => {
   const { selectedLanguage } = useLanguage();
@@ -28,6 +28,7 @@ const MainPage = () => {
   return (
     <div className="bg">
       <div className="overlay">
+        <TranslateButton></TranslateButton>
         <div className="mainpage">
           <div className="head">
             <h1>
@@ -56,9 +57,7 @@ const MainPage = () => {
                 <img src="/officer.jpg" alt="" className="image" />
               </Link>
             </div>
-            {/* <TranslateButton></TranslateButton> */}
-            <OptionStep></OptionStep>
-            <TranslateButton></TranslateButton>
+            <ChatBot></ChatBot>
             <Link to="/officermaininterface">
               <button>Go to Officer Main Interface</button>
             </Link>

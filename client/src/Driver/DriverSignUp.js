@@ -6,8 +6,6 @@ import { useLanguage } from "../TraslateBtn/LanguageContext";
 import englishContent from "../Json/Driver Signup/DSE.json";
 import sinhalaContent from "../Json/Driver Signup/DSS.json";
 import tamilContent from "../Json/Driver Signup/DST.json";
-// import PopUpMessage from "../PopupMessage";
-import OptionStep from "../ChatBot/OptionStep";
 import { toast, Toaster } from "react-hot-toast";
 
 function DriverSignUp() {
@@ -119,14 +117,14 @@ function DriverSignUp() {
   };
 
   return (
-    <div className="bgp">
+    <div className="bgpdsi">
       {/* {showPopup && <PopupMessage message={popupMessage} />} */}
       <Toaster toastOptions={{ duration: 4000 }} />
-      <div className="overlay">
+      <div className="overlaydsi">
         <h1>
           Register <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormdsi">
           <form>
             <label htmlFor="email">{content.EmailLabel}</label>
             <input
@@ -174,12 +172,12 @@ function DriverSignUp() {
               placeholder="Confirm Password"
               required
             />
-            <input
+            {/* <input
               className="button"
               type="submit"
               onClick={register}
               value={content.RegisterButton}
-            />
+            /> */}
 
             <h1
             //   style={{
@@ -191,14 +189,24 @@ function DriverSignUp() {
             >
               {/* {registerStatus} */}
             </h1>
-            <h3 style={{ position: "relative", top: "20px" }}>
+            {/* <h3 style={{ position: "relative", top: "20px" }}>
               {content.ExistingMemberMessage}
             </h3>
             <Link to="/driverlogin">
               <button className="button">{content.LoginButton}</button>
+            </Link> */}
+            <Link to="/driverlogin">
+              <button className="button">{content.LoginButton}</button>
             </Link>
+            <br></br>
+            <input
+              className="button"
+              type="submit"
+              onClick={register}
+              value={content.RegisterButton}
+            />
+            <br></br>
           </form>
-          <OptionStep></OptionStep>
         </div>
       </div>
     </div>
