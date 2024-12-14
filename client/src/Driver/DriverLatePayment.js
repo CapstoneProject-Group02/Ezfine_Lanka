@@ -7,7 +7,6 @@ import sinhalaContent from "../Json/Driver Late Payment/DLPS.json";
 import tamilContent from "../Json/Driver Late Payment/DLPT.json";
 import { Link } from "react-router-dom";
 
-
 const DriverLatePayment = () => {
   const { selectedLanguage } = useLanguage();
   let content;
@@ -79,7 +78,6 @@ const DriverLatePayment = () => {
 
   return (
     <div className="bglatepayment">
-      
       <div className="overlaylatepayment">
         <h1>
           LATE PAYMENT <span style={{ color: "#E4A80E" }}>DETAILS</span>
@@ -124,7 +122,7 @@ const DriverLatePayment = () => {
           )}
           <br />
           <br />
-          <Link to="/payment">
+          <Link to="/driverpayment">
             <button className="button1">PayHere</button>
           </Link>
         </div>

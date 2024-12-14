@@ -7,9 +7,8 @@ import { useLanguage } from "../TraslateBtn/LanguageContext";
 import englishContent from "../Json/Driver Login/DLE.json";
 import sinhalaContent from "../Json/Driver Login/DLS.json";
 import tamilContent from "../Json/Driver Login/DLT.json";
-import LoginWithGoogle from "../FireBase/GoogleLoginDriver";
-import OptionStep from "../ChatBot/OptionStep";
 import { toast, Toaster } from "react-hot-toast";
+import GoogleLoginDriver from "../FireBase/GoogleLoginDriver";
 
 function DriverLogin() {
   const { selectedLanguage } = useLanguage();
@@ -36,7 +35,7 @@ function DriverLogin() {
     e.preventDefault();
     if (!username || !password) {
       // setLoginStatus("Username and password are required");
-      toast.success("Username and password are required");
+      toast.error("Username and password are required");
       return;
     }
     Axios.post("http://localhost:3008/login", {
@@ -53,13 +52,13 @@ function DriverLogin() {
           }, 100);
         } else {
           // setLoginStatus(response.data.message || "Unknown error occurred");
-          toast.success(response.data.message || "Unknown error occurred");
+          toast.error(response.data.message || "Unknown error occurred");
         }
       })
       .catch((error) => {
         console.error("Error logging in:", error);
         // setLoginStatus("Error logging in. Please try again later.");
-        toast.success("Error logging in. Please try again later.");
+        toast.error("Error logging in. Please try again later.");
       });
   };
 
@@ -71,7 +70,7 @@ function DriverLogin() {
           Login
           <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormDriver">
           <form>
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
@@ -96,26 +95,17 @@ function DriverLogin() {
               required
             />
             <input
-              className="button"
+              className="button1"
               type="submit"
               onClick={login}
               value={content.LoginButton}
             />
-            <LoginWithGoogle></LoginWithGoogle>
-            <h1
-            // style={{
-            //   color: "red",
-            //   fontSize: "15px",
-            //   textAlign: "center",
-            //   marginTop: "60px",
-            // }}
-            >
-              {/* {loginStatus} */}
-            </h1>
+            {/* <Link to="/googlelogindriver">
+              <button className="button1"> {content.Google}</button>
+            </Link> */}
+            <GoogleLoginDriver></GoogleLoginDriver>
 
-            <h3 style={{ position: "relative", top: "50px" }}>
-              {content.NewMemberMessage}
-            </h3>
+            <div className="newMember">{content.NewMemberMessage}</div>
 
             <Link to="/driversignup">
               <button className="button1">{content.CreateAccountButton}</button>
@@ -124,7 +114,6 @@ function DriverLogin() {
               <button className="button1">{content.Back}</button>
             </Link>
           </form>
-          <OptionStep></OptionStep>
         </div>
       </div>
     </div>

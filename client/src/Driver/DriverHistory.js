@@ -85,7 +85,9 @@ const DriverHistory = () => {
           STAY SAFE, <span style={{ color: "#E4A80E" }}>STAY UPDATED</span>
         </h1>
         <div className="input-section">
-          <label htmlFor="licenseNumber">{content.EnterLicenseNumber}</label>
+          <label className="label1" htmlFor="licenseNumber">
+            {content.EnterLicenseNumber}
+          </label>
           <input
             type="text_1"
             id="licenseNumber"

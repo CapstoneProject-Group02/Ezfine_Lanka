@@ -41,14 +41,14 @@ function DriverSignUp() {
     const usernameRegex = /^[A-Z]\d{7}$/;
 
     if (!email || !emailRegex.test(email)) {
-      toast.success("Please enter a valid email address");
+      toast.error("Please enter a valid email address");
       // setPopupMessage("Please enter a valid email address");
       // setShowPopup(true);
       return;
     }
 
     if (!password || !passwordRegex.test(password)) {
-      toast.success(
+      toast.error(
         "Password must be at least 8 characters long and contain at least one capital letter, one number, one symbol"
       );
       // setPopupMessage(
@@ -59,14 +59,14 @@ function DriverSignUp() {
     }
 
     if (password !== confirmPassword) {
-      toast.success("Passwords do not match");
+      toast.error("Passwords do not match");
       // setPopupMessage("Passwords do not match");
       // setShowPopup(true);
       return;
     }
 
     if (!username || !usernameRegex.test(username)) {
-      toast.success(
+      toast.error(
         "License number must start with a capital letter followed by 7 digits"
       );
       // setPopupMessage(
@@ -89,7 +89,7 @@ function DriverSignUp() {
           // setRegisterStatus("OTP SEND SUCCESSFULLY");
           toast.success("Verify Your Phone Number!");
           setTimeout(() => {
-            window.location.href = "/OTPVerify";
+            window.location.href = "/OTPVerifyDriver";
           }, 1000);
         }
       })
@@ -100,35 +100,35 @@ function DriverSignUp() {
         ) {
           // setPopupMessage("Email already exists");
           // setShowPopup(true);
-          toast.success("Email already exists");
+          toast.error("Email already exists");
         } else if (
           error.response &&
           error.response.data.message === "License Number already taken"
         ) {
           // setPopupMessage("License Number already taken");
           // setShowPopup(true);
-          toast.success("License Number already taken");
+          toast.error("License Number already taken");
         } else {
           console.error("Error registering user:", error);
           // setRegisterStatus("Error registering user");
-          toast.success("Error registering user");
+          toast.error("Error registering user");
         }
       });
   };
 
   return (
-    <div className="bgpdsi">
+    <div className="bgp">
       {/* {showPopup && <PopupMessage message={popupMessage} />} */}
       <Toaster toastOptions={{ duration: 4000 }} />
-      <div className="overlaydsi">
+      <div className="overlay">
         <h1>
           Register <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginFormdsi">
+        <div className="loginFormofficersign">
           <form>
             <label htmlFor="email">{content.EmailLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="email"
               name="email"
               onChange={(e) => {
@@ -139,7 +139,7 @@ function DriverSignUp() {
             />
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="text"
               name="username"
               onChange={(e) => {
@@ -151,7 +151,7 @@ function DriverSignUp() {
             />
             <label htmlFor="password">{content.PasswordLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="password"
               name="password"
               onChange={(e) => {
@@ -162,50 +162,40 @@ function DriverSignUp() {
             />
             <label htmlFor="confirmPassword">{content.Conform}</label>
             <input
-              className="textInput"
+              className="textInputofficersign"
               type="password"
               name="confirmPassword"
-              // value={content.Conform}
               onChange={(e) => {
                 setConfirmPassword(e.target.value);
               }}
-              placeholder="Confirm Password"
+              placeholder={content.Conform}
               required
+              // value=
             />
-            {/* <input
-              className="button"
+            <input
+              className="buttonofficersign"
               type="submit"
               onClick={register}
               value={content.RegisterButton}
-            /> */}
-
+            />
+            {/* <p>{content.ExistingMemberMessage}</p> */}
             <h1
             //   style={{
             //     fontSize: "15px",
             //     textAlign: "center",
-            //     marginTop: "-55px", //-65px ranawaka code
+            //     marginTop: "-65px", //-65px ranawaka code
             //     color: "red",
             //   }}
             >
               {/* {registerStatus} */}
             </h1>
-            {/* <h3 style={{ position: "relative", top: "20px" }}>
-              {content.ExistingMemberMessage}
-            </h3>
+
+            <div className="existing">{content.ExistingMemberMessage}</div>
             <Link to="/driverlogin">
-              <button className="button">{content.LoginButton}</button>
-            </Link> */}
-            <Link to="/driverlogin">
-              <button className="button">{content.LoginButton}</button>
+              <button className="buttonofficersign">
+                {content.LoginButton}
+              </button>
             </Link>
-            <br></br>
-            <input
-              className="button"
-              type="submit"
-              onClick={register}
-              value={content.RegisterButton}
-            />
-            <br></br>
           </form>
         </div>
       </div>

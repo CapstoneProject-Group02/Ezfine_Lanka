@@ -38,7 +38,7 @@ function DriverMainInterface() {
           <div className="payd">
             <p className="topicd">{content.Payment}</p>
             <div>
-              <Link to="/payment" className="link">
+              <Link to="/driverpayment" className="link">
                 <img src="/payment.jpg" alt="" className="imaged" />
               </Link>
             </div>
@@ -53,7 +53,7 @@ function DriverMainInterface() {
           <div className="latepaymentd">
             <p className="topicd">{content.LatePayment}</p>
             <div>
-              <Link to="/latepayment" className="link">
+              <Link to="/driverlatepayment" className="link">
                 <img src="/late.jpg" alt="" className="imaged" />
               </Link>
             </div>
@@ -61,7 +61,7 @@ function DriverMainInterface() {
           <div className="offencesd">
             <p className="topicd">{content.OffencesDetails}</p>
 
-            <Link to="/offensesdetails" className="link">
+            <Link to="/driverfinespdfdownload" className="link">
               <img src="/offencedetails.jpg" alt="" className="imaged" />
             </Link>
           </div>

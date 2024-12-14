@@ -30,7 +30,7 @@ const DriverPayment = () => {
 
   const fineList = [
     { value: 500, payhereLink: "https://sandbox.payhere.lk/pay/o729d3828" },
-    { value: 1000, payhereLink: "https://sandbox.payhere.lk/pay/o75f0fc31" },
+    { value: 1000, payhereLink: "https://sandbox.payhere.lk/pay/o8186c01f" },
     { value: 2000, payhereLink: "https://sandbox.payhere.lk/pay/o9525152f" },
     { value: 3000, payhereLink: "https://sandbox.payhere.lk/pay/of5e29cca" },
     { value: 4000, payhereLink: "https://sandbox.payhere.lk/pay/oa674f921" },
@@ -38,6 +38,8 @@ const DriverPayment = () => {
     { value: 1500, payhereLink: "https://sandbox.payhere.lk/pay/oe22225b9" },
     { value: 2500, payhereLink: "https://sandbox.payhere.lk/pay/o4f175c14" },
     { value: 3500, payhereLink: "https://sandbox.payhere.lk/pay/o38106c82" },
+    { value: 3500, payhereLink: "https://sandbox.payhere.lk/pay/o44a5f2f0" },
+    { value: 9600, payhereLink: "https://sandbox.payhere.lk/pay/o188f91a5" },
   ];
 
   const handleSubmit = (e) => {

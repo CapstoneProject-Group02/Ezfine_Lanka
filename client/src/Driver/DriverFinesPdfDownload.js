@@ -23,7 +23,7 @@ function DriverFinesPdfDownload() {
       content = englishContent;
   }
   const fileUrl =
-    "https://drive.google.com/file/d/1zTwtYwER57J9H0lyY4MHYubY7p3tmbRV/view?usp=sharing";
+    "https://drive.google.com/file/d/1vn1Oi4hDYDSBp_qj-WdMzWdMok-vMOPY/view?usp=sharing";
 
   const handleDownload = () => {
     window.open(fileUrl, "_blank");
