@@ -3,6 +3,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mysql = require("mysql");
 const app = express();
+require("dotenv").config();
+
 const port = 3019;
 ///3010
 app.use(bodyParser.json());
@@ -12,11 +14,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const con = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "",
-  database: "ezfine",
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
+
 
 // app.get("/getFineAmount", (req, res) => {
 //   const licenseNumber = req.query.licenseNumber;

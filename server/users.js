@@ -2,6 +2,7 @@ const express = require("express");
 const mysql = require("mysql");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+require("dotenv").config();
 const salt = 10;
 const bcrypt = require("bcrypt");
 
@@ -13,11 +14,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const con = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "",
-  database: "ezfine",
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
+
 
 app.post("/register", (req, res) => {
   const { email, username, password } = req.body;
