@@ -46,6 +46,7 @@ function App() {
         <Route path="/googlelogindriver" element={<GoogleLoginDriver />} />
         <Route path="/googleloginofficer" element={<GoogleLoginOfficer />} />
         <Route path="/history" element={<DriverHistory />} />
+        <Route path="/googlelogindriver" element={<GoogleLoginDriver />} />
       </Routes>
     </BrowserRouter>
   );
