@@ -58,12 +58,7 @@ const MainPage = () => {
               </Link>
             </div>
             <ChatBot></ChatBot>
-            <Link to="/officermaininterface">
-              <button>Go to Officer Main Interface</button>
-            </Link>
-            <Link to="/drivermaininterface">
-              <button>Go to Officer Main Interface</button>
-            </Link>
+            {/* All button removed */}
           </div>
         </div>
       </div>
