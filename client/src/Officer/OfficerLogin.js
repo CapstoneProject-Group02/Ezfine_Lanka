@@ -7,8 +7,8 @@ import englishContent from "../Json/Officer Login/OLE.json";
 import sinhalaContent from "../Json/Officer Login/OLS.json";
 import tamilContent from "../Json/Officer Login/OLT.json";
 import { useLanguage } from "../TraslateBtn/LanguageContext";
-import LoginWithGoogle from "../FireBase/GoogleLoginDriver";
 import { toast, Toaster } from "react-hot-toast";
+import GoogleLoginOfficer from "../FireBase/GoogleLoginOfficer";
 
 function OfficerLogin() {
   const { selectedLanguage } = useLanguage();
@@ -29,10 +29,14 @@ function OfficerLogin() {
   }
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  // const [loginStatus, setLoginStatus] = useState("");
 
   const login1 = (e) => {
     e.preventDefault();
+    if (!username || !password) {
+      toast.error("Username and password are required");
+      return;
+    }
+
     Axios.post("http://localhost:3009/login1", {
       username: username,
       password: password,
@@ -47,13 +51,13 @@ function OfficerLogin() {
           }, 100);
         } else {
           // setLoginStatus(response.data.message || "Unknown error occurred");
-          toast.success(response.data.message || "Unknown error occurred");
+          toast.error(response.data.message || "Unknown error occurred");
         }
       })
       .catch((error) => {
         console.error("Error logging in:", error);
         // setLoginStatus("Error logging in. Please try again later.");
-        toast.success("Error logging in. Please try again later.");
+        toast.error("Error logging in. Please try again later.");
       });
   };
 
@@ -65,11 +69,11 @@ function OfficerLogin() {
           Login
           <span style={{ color: "#E4A80E" }}>Here</span>
         </h1>
-        <div className="loginForm">
+        <div className="loginFormofficer">
           <form>
             <label htmlFor="username">{content.UsernameLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficerlog"
               type="text"
               name="username"
               onChange={(e) => {
@@ -80,7 +84,7 @@ function OfficerLogin() {
             />
             <label htmlFor="password">{content.PasswordLabel}</label>
             <input
-              className="textInput"
+              className="textInputofficerlog"
               type="password"
               name="password"
               onChange={(e) => {
@@ -90,31 +94,23 @@ function OfficerLogin() {
               required
             />
             <input
-              className="button"
+              className="buttonofficerlog"
               type="submit"
               onClick={login1}
               value={content.LoginButton}
             />
-            <LoginWithGoogle></LoginWithGoogle>
-            <h1
-            //   style={{
-            //     color: "red",
-            //     fontSize: "15px",
-            //     textAlign: "center",
-            //     marginTop: "60px",
-            //   }}
-            >
-              {/* {loginStatus} */}
-            </h1>
+            <GoogleLoginOfficer></GoogleLoginOfficer>
 
             <h3 style={{ position: "relative", top: "50px" }}>
               {content.NewMemberMessage}
             </h3>
             <Link to="/officersignup">
-              <button className="button1">{content.CreateAccountButton}</button>
+              <button className="buttonofficerlog">
+                {content.CreateAccountButton}
+              </button>
             </Link>
             <Link to="/">
-              <button className="button1">{content.Back}</button>
+              <button className="buttonofficerlog">{content.Back}</button>
             </Link>
           </form>
         </div>

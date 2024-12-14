@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import Select from "react-select";
 import "./OfficerFineSelectInterface.css"; // Import the CSS file
-// import Chat from "./Chat";
-import { Link } from "react-router-dom";
 import axios from "axios";
 import { useLanguage } from "../TraslateBtn/LanguageContext";
 import englishContent from "../Json/Officer Fine Interface/OFIE.json";
 import sinhalaContent from "../Json/Officer Fine Interface/OFIS.json";
 import tamilContent from "../Json/Officer Fine Interface/OFIT.json";
 import { toast, Toaster } from "react-hot-toast";
+
 const offenses = [
   { label: "Identification plates", value: 1000 },
   { label: " Not carrying R.L", value: 1000 },
@@ -109,12 +108,33 @@ const OfficerFineSelectInterface = () => {
   };
 
   const handleSendLink = () => {
+    const licenseNumberRegex = /^[A-Z]\d{7}$/;
+    const phoneRegex = /^\+\d{11}$/;
+
+    if (!phoneRegex.test(phoneNumber)) {
+      toast.error(
+        "Please enter a valid phone number starting with '+' followed by 11 digits"
+      );
+      return;
+    }
+
+    if (!licenseNumber || !licenseNumberRegex.test(licenseNumber)) {
+      toast.error(
+        "License number must start with a capital letter followed by 7 digits"
+      );
+    }
+
+    if (selectedOffenses.length === 0) {
+      toast.error("Please select at least one offense");
+      return;
+    }
+
     const selectedOffenseLabels = selectedOffenses.map(
       (offense) => offense.label
     );
     const fineDetails = `Welcome To EZ Fine\n Your Fine Amount: ${fine}\nYour Fines: ${selectedOffenseLabels.join(
       ", "
-    )}\nDate: ${new Date().toLocaleDateString()}\n For Pay Use This link:https://chat.openai.com/`;
+    )}\nDate: ${new Date().toLocaleDateString()}\n For Pay Use This link:https://ezfinelanka.netlify.app/`;
 
     //Calculate the new fine percentage
     let newFinePercentage = finePercentage;
@@ -150,7 +170,6 @@ const OfficerFineSelectInterface = () => {
           date: new Date().toLocaleDateString(),
           licenseNumber: licenseNumber,
           finePercentage: newFinePercentage,
-          // licenseStatus: licenseStatus,
         });
       })
       .catch((error) => {
@@ -215,8 +234,6 @@ const OfficerFineSelectInterface = () => {
 
           {/* {linkSent && <p className="successMessage">{content.link_sent}</p>} */}
           <br></br>
-
-          {/* <Chat></Chat> */}
         </div>
       </div>
     </div>
@@ -224,6 +241,3 @@ const OfficerFineSelectInterface = () => {
 };
 
 export default OfficerFineSelectInterface;
-
-
-

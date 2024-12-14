@@ -36,7 +36,6 @@ function OfficerMainInterface() {
     >
       <div className="overlayo">
         <TranslateButton></TranslateButton>
-
         <div className="officerinterface">
           <h1>
             Drive Responsibly{" "}
@@ -60,13 +59,8 @@ function OfficerMainInterface() {
               </div>
             </div>
           </div>
-          {/* <Link to="/">
-          <button className="button1"> Back</button>
-        </Link> */}
         </div>
       </div>
-
-      <div className="mainComponentContainer"></div>
     </div>
   );
 }
