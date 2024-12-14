@@ -43,7 +43,7 @@ function GoogleLoginOfficer() {
       {/* {value ? ( */}
       {/* // <p>Welcome, {value}</p> */}
       {/* ) : ( */}
-      <button onClick={handleClick1} className="button1">
+      <button onClick={handleClick1} className="buttonofficerlog">
         {content.Google}
       </button>
       {/* )} */}

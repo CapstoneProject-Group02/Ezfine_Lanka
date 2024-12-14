@@ -43,7 +43,21 @@ function GoogleLoginDriver() {
       {/* {value ? ( */}
       {/* // <p>Welcome, {value}</p> */}
       {/* ) : ( */}
-      <button onClick={handleClick} className="button1">
+      <button
+        onClick={handleClick}
+        style={{
+          color: " rgb(0, 0, 0)",
+          background: " #e4a80e",
+          border: "none",
+          fontWeight: "700",
+          borderRadius: "3px",
+          padding: "10px",
+          margin: "10px",
+          width: "220px",
+          position: "relative",
+          left: "9px",
+        }}
+      >
         {content.Google}
       </button>
       {/* )} */}

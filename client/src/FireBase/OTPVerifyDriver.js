@@ -113,7 +113,7 @@ const OTPVerifyDriver = () => {
                   onChange={setPh}
                   className="sec13"
                 />
-                <button onClick={onSignup} className="button">
+                <button onClick={onSignup} className="buttonotp">
                   {loading && <CgSpinner size={20} className="sec12" />}
                   <span>Send code via SMS</span>
                 </button>
@@ -127,5 +127,3 @@ const OTPVerifyDriver = () => {
 };
 
 export default OTPVerifyDriver;
-
-

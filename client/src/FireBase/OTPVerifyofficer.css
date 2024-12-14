@@ -10,11 +10,8 @@
   background-attachment: fixed;
 }
 
-
-
 .sec1 {
   color: green;
-  
 }
 
 .sec2 {
@@ -46,7 +43,7 @@
 }
 
 .sec7,
-.button{
+.buttonotp {
   margin-top: 80px;
   padding: 10px 20px;
   background-color: #007bff;
@@ -66,12 +63,8 @@
   left: 20px;
 }
 
-
-
-
-
 @media only screen and (min-width: 360px) {
-  .sec2{
+  .sec2 {
     text-align: center;
     border-radius: 5px;
     height: 50vh;
@@ -84,14 +77,14 @@
     margin-bottom: 40px;
   }
 
-  .sec7{
+  .sec7 {
     margin-top: 40px;
     padding: 10px 20px;
     border-radius: 1px;
     cursor: pointer;
     width: 12rem;
   }
-  .button{
+  .buttonotp {
     margin-top: 40px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -110,7 +103,6 @@
   .sec13 {
     position: relative;
     left: 5px;
-    
   }
 
   .sec5 {
@@ -118,13 +110,8 @@
   }
 }
 
-
-
-
-
-
 @media only screen and (min-width: 412px) {
-  .sec2{
+  .sec2 {
     text-align: center;
     border-radius: 5px;
     height: 50vh;
@@ -140,16 +127,15 @@
   .sec13 {
     position: relative;
     left: 20px;
-    
   }
-  .sec7{
+  .sec7 {
     margin-top: 35px;
     padding: 15px 20px;
     border-radius: 1px;
     cursor: pointer;
     width: 13rem;
   }
-  .button{
+  .buttonotp {
     margin-top: 50px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -159,7 +145,7 @@
   .sec12 {
     margin-right: 8px;
   }
-  
+
   .sec6 {
     margin: 10px auto;
     padding: 2px;
@@ -169,12 +155,8 @@
   }
 }
 
-
-
-
-
 @media only screen and (min-width: 576px) {
-  .sec2{
+  .sec2 {
     height: 65vh;
     width: 23rem;
   }
@@ -186,27 +168,23 @@
   .sec9 {
     margin-bottom: 20px;
     font-size: 1rem;
-    
   }
   .sec10 {
     font-size: 1.3rem;
-   
   }
   .sec13 {
     position: relative;
     left: 1px;
     margin-top: 2px;
-    
   }
-  .flag-dropdown{
+  .flag-dropdown {
     left: 34px;
-    
   }
-  .form-control{
+  .form-control {
     font-size: 2rem;
   }
 
-  .button{
+  .buttonotp {
     margin-top: 70px;
     padding: 10px 20px;
     border-radius: 1px;
@@ -214,16 +192,10 @@
     width: 14rem;
     font-size: 1rem;
   }
-  .sec12{
+  .sec12 {
     font-size: 2rem;
   }
- 
 }
-
-
-
-
-
 
 @media only screen and (min-width: 768px) {
   .sec3 {
@@ -234,7 +206,7 @@
   .sec6 {
     width: 100px;
   }
-  .sec2{
+  .sec2 {
     height: 66vh;
     width: 26 rem;
     margin-top: 0px;
@@ -244,36 +216,33 @@
     left: -2px;
     margin-top: 10px;
   }
-  .flag-dropdown{
+  .flag-dropdown {
     left: 34px;
   }
   .sec10 {
     font-size: 1.3rem;
-  
   }
- 
-  .sec9{
+
+  .sec9 {
     margin-top: 40px;
   }
-  
-  .selected-flag{
+
+  .selected-flag {
     font-size: 3rem;
   }
 
-  .button{
+  .buttonotp {
     margin-top: 80px;
     padding: 9px 20px;
     border-radius: 1px;
     cursor: pointer;
     width: 14rem;
     font-size: 1.1rem;
-    
   }
-
 }
 
 @media only screen and (min-width: 992px) {
-  .sec2{
+  .sec2 {
     height: 65vh;
     width: 26rem;
   }
@@ -282,20 +251,20 @@
     font-size: 3rem;
     margin-bottom: 50px;
   }
-  .flag-dropdown{
+  .flag-dropdown {
     left: 58px;
   }
-  .sec7{
+  .sec7 {
     margin-top: 68px;
     padding: 15px 20px;
     border-radius: 1px;
-    
+
     width: 13rem;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .sec2{
+  .sec2 {
     height: 66vh;
     width: 26rem;
   }
@@ -304,20 +273,16 @@
     font-size: 3rem;
     margin-bottom: 50px;
   }
-  .flag-dropdown{
+  .flag-dropdown {
     left: 58px;
   }
-  
-  .button{
+
+  .buttonotp {
     margin-top: 80px;
     padding: 9px 20px;
     border-radius: 1px;
     cursor: pointer;
     width: 15rem;
     font-size: 1.1rem;
-    
   }
 }
-
-
-
