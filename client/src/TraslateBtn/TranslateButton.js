@@ -14,19 +14,19 @@ const TranslateButton = () => {
     <div className="main-container">
       <div className="cont">
         <button
-          className="button"
+          className="button11"
           onClick={() => handleLanguageChange("english")}
         >
           English
         </button>
         <button
-          className="button"
+          className="button11"
           onClick={() => handleLanguageChange("sinhala")}
         >
           සිංහල
         </button>
         <button
-          className="button"
+          className="button11"
           onClick={() => handleLanguageChange("tamil")}
         >
           தமிழ்
