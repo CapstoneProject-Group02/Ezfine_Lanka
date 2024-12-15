@@ -11,6 +11,7 @@
     z-index: 9999; /* Ensure the popup is on top of other elements */
   }
   
+  
   @keyframes slideInRight {
     from {
       right: -200px;
