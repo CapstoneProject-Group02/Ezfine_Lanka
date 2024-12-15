@@ -10,7 +10,6 @@ import tamilContent from '..//Driver/Json/OST.json';
 
 function Signup1() {
   const { selectedLanguage } = useLanguage();
-
   let content;
   switch (selectedLanguage) {
     case 'english':
