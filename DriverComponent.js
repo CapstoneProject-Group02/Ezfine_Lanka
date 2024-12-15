@@ -1,7 +1,6 @@
 import React from "react";
 import { useLanguage } from "./Components/Driver/LanguageContext";
 import "./DriverComponent.css"; // Import the CSS file
-
 const DriverComponent = () => {
   const { selectedLanguage, setSelectedLanguage } = useLanguage();
 
