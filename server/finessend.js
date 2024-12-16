@@ -31,7 +31,7 @@ app.post("/saveFineDetails", (req, res) => {
   } = req.body;
 
   // Insert fine details into the database
-  connection.query(
+  con.query(
     "INSERT INTO fines (fine_type, fine_amount, date, license_number, fine_percentage, phone_number) VALUES (?, ?, ?, ?, ?, ?)",
     [
       fineType,
