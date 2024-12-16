@@ -3,18 +3,19 @@ const bodyParser = require("body-parser");
 const mysql = require("mysql");
 const cors = require("cors");
 const app = express();
+require("dotenv").config();
 
 app.use(bodyParser.json());
 app.use(cors());
 // MySQL Connection
-const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "ezfine",
+const con = mysql.createConnection({
+  host: process.env.DB_HOST,
+  password: process.env.DB_PASS,
+  user: process.env.DB_USER,
+  database: process.env.DB_NAME,
 });
 
-connection.connect((err) => {
+con.connect((err) => {
   if (err) {
     console.error("Error connecting to database: ", err);
     return;

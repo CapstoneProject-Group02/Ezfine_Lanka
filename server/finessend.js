@@ -4,6 +4,7 @@ const mysql = require("mysql");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
+require("dotenv").config();
 
 app.use(express.json());
 
@@ -11,12 +12,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-// Create a connection to the database
-const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "ezfine",
+const con = mysql.createConnection({
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
 });
 
 // Route to save fine details to the database
@@ -32,7 +32,7 @@ app.post("/saveFineDetails", (req, res) => {
   } = req.body;
 
   // Insert fine details into the database
-  connection.query(
+  con.query(
     "INSERT INTO fines (fine_type, fine_amount, date, license_number, fine_percentage, phone_number) VALUES (?, ?, ?, ?, ?, ?)",
     [
       fineType,
